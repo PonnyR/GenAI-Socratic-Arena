@@ -1,5 +1,7 @@
 # GenAI Socratic Arena
 
+[Open the public GitHub Pages site](https://ponnyr.github.io/genai-socratic-arena/)
+
 An English-language interactive prototype for an AI-powered business debate learning platform. The experience turns a business decision into a structured Socratic practice session with competing AI personas, evidence prompts, formative feedback, and instructor oversight.
 
 ## Prototype routes
@@ -29,6 +31,13 @@ Open `http://localhost:3000`.
 npm run build
 node --test tests/rendered-html.test.mjs
 ```
+
+## GitHub Pages
+
+The public site is deployed automatically from the `main` branch through the
+workflow in `.github/workflows/deploy-pages.yml`. The Pages build preserves all
+front-end interactions while publishing a fully static version under the
+repository path.
 
 ## Next implementation phase
 
