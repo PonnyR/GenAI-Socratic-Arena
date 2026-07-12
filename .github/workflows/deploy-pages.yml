@@ -38,7 +38,7 @@ jobs:
           GITHUB_PAGES: "true"
           PAGES_BASE_PATH: /genai-socratic-arena
           NEXT_PUBLIC_SITE_URL: https://ponnyr.github.io
-          NEXT_PUBLIC_BASE_PATH: /genai-socratic-arena
+          NEXT_PUBLIC_BASE_PATH: /GenAI-Socratic-Arena
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
