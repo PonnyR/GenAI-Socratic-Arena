@@ -36,7 +36,7 @@ jobs:
         run: npm run build:pages
         env:
           GITHUB_PAGES: "true"
-          PAGES_BASE_PATH: /genai-socratic-arena
+          PAGES_BASE_PATH: /GenAI-Socratic-Arena
           NEXT_PUBLIC_SITE_URL: https://ponnyr.github.io
           NEXT_PUBLIC_BASE_PATH: /GenAI-Socratic-Arena
 
