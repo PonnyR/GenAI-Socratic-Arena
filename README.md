@@ -1,6 +1,6 @@
 # GenAI Socratic Arena
 
-[Open the public GitHub Pages site](https://ponnyr.github.io/genai-socratic-arena/)
+[Open the public GitHub Pages site](https://ponnyr.github.io/GenAI-Socratic-Arena/)
 
 An English-language interactive prototype for an AI-powered business debate learning platform. The experience turns a business decision into a structured Socratic practice session with competing AI personas, evidence prompts, formative feedback, and instructor oversight.
 
