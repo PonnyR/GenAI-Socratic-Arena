@@ -67,7 +67,7 @@ export default function ArenaPage() {
 
       <main className="arena-workspace">
         <aside className="brief-panel">
-          <div><span className="kicker amber-text">Today’s motion</span><h1>Northstar Coffee should replace single-use packaging across all markets by 2027.</h1></div>
+          <div><span className="kicker amber-text motion-label">Today’s motion</span><h1>Northstar Coffee should replace single-use packaging across all markets by 2027.</h1></div>
           <section><span className="kicker">Your objective</span><p>Defend a financially credible transition strategy while protecting customer trust.</p></section>
           <section><span className="kicker">Success criteria</span><ul><li>Respond to all three perspectives</li><li>Use at least two approved sources</li><li>Name a measurable decision rule</li></ul></section>
           <button className="report-button" type="button" onClick={() => setNotice("The current message has been marked for instructor review.")}>Flag for review</button>
