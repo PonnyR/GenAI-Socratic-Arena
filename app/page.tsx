@@ -47,7 +47,7 @@ export default function Home() {
             <div className="preview-body">
               <div className="motion-row">
                 <div>
-                  <span className="kicker amber-text">Today’s motion</span>
+                  <span className="kicker amber-text motion-label">Today’s motion</span>
                   <h2>Northstar Coffee should replace single-use packaging across all markets by 2027.</h2>
                 </div>
                 <span className="round-label">Round 2 of 4</span>
