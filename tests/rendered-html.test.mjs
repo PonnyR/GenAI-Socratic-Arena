@@ -50,7 +50,7 @@ test("uses site-specific metadata and social artwork", async () => {
   ]);
 
   assert.match(layout, /GenAI Socratic Arena/);
-  assert.match(layout, /\/og\.png/);
+  assert.match(layout, /\/og\.jpg/);
   assert.doesNotMatch(layout, /Starter Project|codex-preview|_sites-preview/);
   assert.match(packageJson, /"name": "genai-socratic-arena"/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
