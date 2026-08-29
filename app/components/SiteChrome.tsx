@@ -33,7 +33,7 @@ export function SiteFooter() {
       <div className="section-shell footer-inner">
         <div className="brand footer-brand"><BrandMark /><span><strong>GenAI Socratic Arena</strong><small>A formative learning prototype</small></span></div>
         <p>AI-powered Socratic practice for entrepreneurial thinking and communication excellence.</p>
-        <div><Link href="/student">Student portal</Link><Link href="/instructor">Instructor portal</Link><a href="#privacy">Privacy</a></div>
+        <div><Link href="/student">Student portal</Link><Link href="/instructor">Instructor portal</Link></div>
       </div>
     </footer>
   );
