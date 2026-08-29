@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { BrandMark } from "../components/SiteChrome";
 
 type Message = { role: "agent" | "student"; name: string; text: string; source?: string; tone?: string };
@@ -38,7 +38,7 @@ export default function ArenaPage() {
     return () => window.clearInterval(timer);
   }, [untimed, seconds]);
 
-  const timeLabel = useMemo(() => `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`, [seconds]);
+  const timeLabel = `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`;
 
   function submitArgument() {
     const cleaned = response.trim();
